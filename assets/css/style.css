@@ -37,7 +37,8 @@
         letter-spacing: 0.60;
     }
     .menu-desktop li a:hover{
-        background-color: red;
+        background-color: rgba(255, 25, 0, 0.891)
+
     }
     header{
       width: 100%;
@@ -53,3 +54,78 @@
         text-shadow: 10px 10px 10px #0000 ;
         padding: 18%;
     }
+    main{
+        margin: 0;
+    }
+    #apresentação{
+        width: 90%;
+    display: block;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 50px auto;
+    }
+    .pizza{
+        width: 30%;
+        float: left;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.75);
+    }
+    .pizza img{
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: top center;
+        border-top-left-radius: 5px;
+        border: top right radius 5px;
+    }
+    .pizza h2{
+        text-align: center;
+        margin-bottom: 0;
+    
+    }
+    .pizza p{
+        text-align: center;
+        padding: 5%;
+        margin-top: 1%;
+        color: black;
+        font-size: 90%;
+    }
+    .pizza a{
+        display: block;
+        text-align: center;
+        background-color: rgba(255, 0, 0, 0.809);
+        color: aliceblue;
+        padding: 3%;
+        text-decoration: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px  ;
+
+    }
+    .pizza a:hover{
+        background-color: darkgreen;
+    }
+    .direita{
+        float: right;
+    }
+    .centro{
+        margin-left: 5%;
+    }
+    footer{
+        margin-top: 50px;
+        width: 100%;
+        background-color: rgba(210, 114, 30, 0.926)
+        ;
+
+    }
+    footer p{
+        text-align: center;
+        font-family: cursive;
+        font-weight: 700;
+        color: aliceblue;
+    }
+    main{
+        height: 500px;
+        width: 100%;
+
+    }
+    
